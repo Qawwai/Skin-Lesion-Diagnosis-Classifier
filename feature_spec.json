@@ -1,0 +1,68 @@
+{
+  "features": [
+    "smoke",
+    "drink",
+    "pesticide",
+    "skin_cancer_history",
+    "cancer_history",
+    "has_piped_water",
+    "has_sewage_system",
+    "biopsed",
+    "itch",
+    "grew",
+    "hurt",
+    "changed",
+    "bleed",
+    "elevation",
+    "background_father",
+    "background_mother",
+    "gender",
+    "region",
+    "age",
+    "fitspatrick",
+    "diameter_1",
+    "diameter_2",
+    "clinical_only",
+    "area",
+    "symptom_count",
+    "aspect"
+  ],
+  "bool_cols": [
+    "smoke",
+    "drink",
+    "pesticide",
+    "skin_cancer_history",
+    "cancer_history",
+    "has_piped_water",
+    "has_sewage_system",
+    "biopsed"
+  ],
+  "sym_cols": [
+    "itch",
+    "grew",
+    "hurt",
+    "changed",
+    "bleed",
+    "elevation"
+  ],
+  "cat_cols": [
+    "background_father",
+    "background_mother",
+    "gender",
+    "region"
+  ],
+  "num_cols": [
+    "age",
+    "fitspatrick",
+    "diameter_1",
+    "diameter_2"
+  ],
+  "classes": [
+    "ACK",
+    "BCC",
+    "MEL",
+    "NEV",
+    "SCC",
+    "SEK"
+  ]
+}
